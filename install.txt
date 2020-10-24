@@ -1,0 +1,23 @@
+npm install express
+
+npm install nodemon -D
+
+npm install nunjucks
+
+npm install sqlite3
+
+install nunjucks setting json in VSCODE
+
+  "workbench.iconTheme": "vscode-icons",
+    "files.associations": {
+        "*.html": "njk"
+      },
+      "emmet.includeLanguages": {
+        "njk": "html"
+      },
+      "vsicons.associations.files": [
+        { "icon": "nunjucks", "extensions": ["html"], "format": "svg" }
+    ],
+    "[njk]": {
+        "editor.defaultFormatter": "eseom.nunjucks-template"
+    },

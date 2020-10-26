@@ -6,8 +6,10 @@ const options = {
     zoomControl: false
 }
 
+const lat = document.querySelector("span[data-lat]").dataset.lat;
+const lng = document.querySelector("span[data-lng]").dataset.lng;
 
-const map = L.map('mapid', options).setView([-23.1935807,-45.8876018], 15);
+const map = L.map('mapid', options).setView([lat, lng], 15);
 
 L
 .tileLayer
@@ -22,8 +24,9 @@ const icon = L.icon({
 });
 
 
+
 L
-.marker([-23.1935807,-45.8876018], {icon})
+.marker([lat, lng], {icon})
 .addTo(map)
 
 

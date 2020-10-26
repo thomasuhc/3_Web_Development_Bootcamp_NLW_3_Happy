@@ -6,4 +6,6 @@ https://www.npmjs.com/package/hbs
 
 npm install hbs
 
-npm install sqlite3
+https://www.npmjs.com/package/sqlite-async
+
+npm install sqlite-async
